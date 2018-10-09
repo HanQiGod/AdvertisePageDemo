@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AdvertiseViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, copy) NSString *adUrl;
 
 @end
-

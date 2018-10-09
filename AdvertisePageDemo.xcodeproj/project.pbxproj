@@ -15,6 +15,8 @@
 		7AA4DA44216C87120001696A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA43216C87120001696A /* main.m */; };
 		7AA4DA4E216C87120001696A /* AdvertisePageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA4D216C87120001696A /* AdvertisePageDemoTests.m */; };
 		7AA4DA59216C87120001696A /* AdvertisePageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA58216C87120001696A /* AdvertisePageDemoUITests.m */; };
+		7AA4DA6A216C879A0001696A /* AdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA66216C87990001696A /* AdvertiseViewController.m */; };
+		7AA4DA6B216C879A0001696A /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA68216C87990001696A /* AdvertiseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		7AA4DA54216C87120001696A /* AdvertisePageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvertisePageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4DA58216C87120001696A /* AdvertisePageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvertisePageDemoUITests.m; sourceTree = "<group>"; };
 		7AA4DA5A216C87120001696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA4DA66216C87990001696A /* AdvertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseViewController.m; sourceTree = "<group>"; };
+		7AA4DA67216C87990001696A /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		7AA4DA68216C87990001696A /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
+		7AA4DA69216C879A0001696A /* AdvertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		7AA4DA33216C870F0001696A /* AdvertisePageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7AA4DA67216C87990001696A /* AdvertiseView.h */,
+				7AA4DA68216C87990001696A /* AdvertiseView.m */,
+				7AA4DA69216C879A0001696A /* AdvertiseViewController.h */,
+				7AA4DA66216C87990001696A /* AdvertiseViewController.m */,
 				7AA4DA34216C870F0001696A /* AppDelegate.h */,
 				7AA4DA35216C870F0001696A /* AppDelegate.m */,
 				7AA4DA37216C870F0001696A /* ViewController.h */,
@@ -264,6 +274,8 @@
 			files = (
 				7AA4DA39216C870F0001696A /* ViewController.m in Sources */,
 				7AA4DA44216C87120001696A /* main.m in Sources */,
+				7AA4DA6A216C879A0001696A /* AdvertiseViewController.m in Sources */,
+				7AA4DA6B216C879A0001696A /* AdvertiseView.m in Sources */,
 				7AA4DA36216C870F0001696A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
